@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">WB5.1</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="dota_heroes_label">Dota Heroes</string>
+    <string name="mock_hero_name">Anti-Mage</string>
+    <string name="error_not_found">Hero\'s not found</string>
+    <string name="error_io_exception">IO exception</string>
+    <string name="stats_label">Stats</string>
+    <string name="attributes_label">Attributes</string>
+    <string name="attack_label">Attack</string>
+    <string name="defence_label">Defence</string>
+    <string name="mobility_label">Mobility</string>
+    <string name="health_mana_label"><![CDATA[Health&Mana]]></string>
+    <string name="hero_name">Hero</string>
+    <string name="about_label">About</string>
+    <string name="chernybro">chernybro</string>
+    <string name="anvar_gubaidullin">Anvar Gubaidullin</string>
+    <string name="name">Name:</string>
+    <string name="author_info">Author Info</string>
+    <string name="nickname">Nickname:</string>
+    <string name="project_info">Project Info</string>
+    <string name="date_of_creation">Date of creation:</string>
+    <string name="date_of_creation_value">21.06.2022</string>
+    <string name="project_link">Source code link</string>
+    <string name="github_hyperlink"><u>DotaHeroes</u></string>
+    <string name="github_project_link">https://github.com/chernybro/DotaHeroes2.0</string>
+
+
+</resources>
