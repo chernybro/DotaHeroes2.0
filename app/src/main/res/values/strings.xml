@@ -27,6 +27,8 @@
     <string name="project_link">Source code link</string>
     <string name="github_hyperlink"><u>DotaHeroes</u></string>
     <string name="github_project_link">https://github.com/chernybro/DotaHeroes2.0</string>
+    <string name="design_settings">Design Settings</string>
+    <string name="app_theme">App Theme</string>
 
 
 </resources>

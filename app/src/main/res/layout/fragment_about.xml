@@ -20,6 +20,8 @@
 
             <com.google.android.material.appbar.MaterialToolbar
                 android:id="@+id/toolbar"
+                app:navigationIcon="@drawable/ic_back"
+                app:navigationIconTint="?attr/colorPrimary"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize">
 
@@ -155,6 +157,49 @@
             app:layout_constraintTop_toBottomOf="@id/project_date_value"
             app:layout_constraintEnd_toEndOf="@id/end_guideline" />
 
+        <TextView
+            android:id="@+id/design_settings"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:text="@string/design_settings"
+            android:textAppearance="@style/Theme.WB51.HeadlineMedium.TextAppearance"
+            app:layout_constraintHeight_default="wrap"
+            app:layout_constraintStart_toStartOf="@id/start_guideline"
+            app:layout_constraintTop_toBottomOf="@id/project_link" />
 
+        <TextView
+            android:id="@+id/app_theme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/Theme.WB51.HeadlineSmall.TextAppearance"
+            app:layout_constraintStart_toStartOf="@id/start_guideline"
+            app:layout_constraintTop_toBottomOf="@id/design_settings"
+            android:text="@string/app_theme" />
+
+        <RadioGroup
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_normal"
+            android:layout_marginHorizontal="@dimen/margin_normal"
+            app:layout_constraintTop_toBottomOf="@id/app_theme"
+            app:layout_constraintEnd_toEndOf="@id/end_guideline"
+            app:layout_constraintStart_toStartOf="@id/start_guideline">
+
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                android:id="@+id/default_theme_button"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/theme_default" />
+
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                android:id="@+id/blue_yellow_theme_button"
+                android:layout_marginTop="@dimen/margin_normal"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/theme_blue_yellow" />
+
+        </RadioGroup>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
